@@ -1,0 +1,19 @@
+# SETUP | LOCAL
+git config --global user.name "your_git_username"
+git config --global user.email "your_git_email_addr"
+
+git config --global color.ui auto
+
+# SETUP AND INIT
+git init
+git add . [all files in pwd]
+git add -A [all files and sub-directories]
+
+git commit -m "your_commit_message"
+
+git clone [url]
+retrieve an entire repository from a hosted location via URL
+
+# REMOTE CONGIGURATION
+git remote add origin https://github.com/your_username/repo_name.git
+git push -u origin master
